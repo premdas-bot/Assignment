@@ -1,0 +1,300 @@
+/* Font style here */
+
+.azeret-mono-regular {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* button styles here */
+
+.btn-primary{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 18px 24px;
+    border-radius: 6px;
+    color: #0D1321;
+    border-color: #0D1321 ;
+}
+
+.btn-secondery{
+    background-color: #0D1321;
+    color: white;
+}
+
+/* start navigation */
+
+.nav-heading{
+    font-size: 35px;
+    font-weight: 900;
+    color: #0D1321;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+}
+nav a{
+    color: #0D1321;
+}
+
+/* start background img style */
+
+.background-style{
+    background-image: url('../assets/Hero-bg.png');
+    width: 100%;
+    height: 652px;
+    position: relative;
+    background-color:beige;
+    margin-bottom: 100px;
+
+}
+
+/* mark this style */
+.header-bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-53%);
+    text-align: center;
+}
+/* mark this style */
+
+.header-bg h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.all-paragrapg{
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-bg a{
+}
+
+/* start why web development */
+
+.all-heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn-third{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 18px;
+}
+
+.web-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    gap: 20px;
+    padding: 32px 40px;
+    border-radius: 10px;
+}
+ .web-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    gap: 20px;
+    padding: 32px 40px;
+    border-radius: 10px;
+}
+.web-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    gap: 20px;
+    padding: 32px 40px;
+    border-radius: 10px;
+}
+.web-section-primary{
+    width: 943px;
+    padding: 40px 105px;
+}
+.web-section-secondery{
+    text-align: center;
+}
+.web-heading{
+    font-size: 32px;
+    font-weight: 900;
+}
+.web-section{
+    width: 1140px;
+    background-color: #f5f9fe ;
+    margin: 154px 400px 145px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+.web-division, .web-division-two, .web-division-three{
+    width: 946px;
+    height: 336px;
+}
+
+
+/* stary my inspiration */
+
+.inspiration-secondery{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 15px 145px 40px;
+}
+.inspiration-section{
+    width: 1140px;
+    height: 775px;
+    margin: 154px 380px 200px;
+}
+.inspiration-person{
+    width: 1140px;
+    height: 614px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.inspiration-primary{
+    text-align: center;
+    padding: 5px;
+}
+
+/* start target style */
+
+.target{
+    width: 1140px;
+    margin: 15px 380px 100px;
+
+}
+.target-one{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.targets{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.link{
+    font-size: 15px;
+    font-weight: 700;
+}
+.skill-one{
+    width: 384px;
+    height: 299px;
+    background-color: #fcf1ee;
+    padding: 30px;
+    border-radius: 10px;
+}
+.skill-two{
+    width: 384px;
+    height: 299px;
+    background-color: #edfbfc;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skill-three{
+    width: 384px;
+    height: 299px;
+    background-color: #f5f2de;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* start next target */
+
+.next-target{
+    width: 1140px;
+    margin: 15px 380px 50px;
+}
+.next-target-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.next-target-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.next-target-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    gap: 25px;
+}
+
+.next-targets{
+    margin-bottom: 30px;
+    text-align: center;
+} 
+
+/* start support */
+
+.support{
+    width: 1140px;
+    height: 313px;
+    background-image: url(../assets/handshake.jpg) ;
+    position: relative;
+    margin: 15px 380px 50px;
+    border-radius: 15px;
+    background-color: ;
+}
+.support-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 400;
+    width: 430px;
+    height: 60px;
+    margin: 10px 7px;
+    padding: 3px 12px;
+    border-radius: 7px;
+    border: none;
+}
+.btn-one{
+    font-size: 20px;
+    font-weight: 550;
+    width: 100px;
+    height: 60px;
+    margin: 10px 0px;
+    padding: 3px 12px;
+    border-radius: 7px;
+    border: none;
+}
+.color-one{
+    color: white;
+}
