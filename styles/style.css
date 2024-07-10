@@ -35,7 +35,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 30px 80px;
     align-items: center;
 }
 nav a{
@@ -57,7 +57,7 @@ nav a{
 /* mark this style */
 .header-bg{
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%,-53%);
     text-align: center;
@@ -264,7 +264,7 @@ nav a{
     height: 313px;
     background-image: url(../assets/handshake.jpg) ;
     position: relative;
-    margin: 15px 380px 50px;
+    margin: 15px 380px 10px;
     border-radius: 15px;
     background-color: ;
 }
@@ -297,4 +297,33 @@ nav a{
 }
 .color-one{
     color: white;
+}
+.color-black{
+    color: #0D1321;
+}
+.color-gray{
+    color: #888b96;
+}
+.color-black-blur{
+    color: #3b3131;
+}
+ 
+/* start footer  */
+
+nav{
+    display: flex;
+    gap: 20px;
+    margin: 0px 100px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    
+}
+nav ul li {
+    list-style: none;
+}
+.footer-heading{
+    font-size: 25px;
+    font-weight: 600;
 }
